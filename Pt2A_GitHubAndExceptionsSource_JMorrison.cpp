@@ -134,7 +134,7 @@ char character(char start, int offset)
 
     //if no exception caught then return the character value of the target
     cout << "The validated numeric value for the target character is: " << target << endl;
-    
+    cout << "The validated alphabetic value for the target character is: " << char(target) << endl;
     return char(target);
    
 }//End character() method
