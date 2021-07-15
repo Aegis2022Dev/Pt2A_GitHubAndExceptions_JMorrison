@@ -33,7 +33,6 @@ Methods:
 #include <cmath> // allow use of math library where necessary
 #include <cstdbool> // allow use of boolean data structures where necessary
 #include <cctype> //allow use of isdigit(arg) and other native boolean alphanumeric/char methods
-#include <exception> //permits handling of program data input exception procedures
 
 using namespace std;
 
@@ -138,5 +137,3 @@ char character(char start, int offset)
     return char(target);
    
 }//End character() method
-
-
