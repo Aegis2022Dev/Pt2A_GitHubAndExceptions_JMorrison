@@ -74,7 +74,10 @@ int main()
     //call character() test exception cases to test exceptions module and validate several alpha numerical user input data
     character('a', 1);
     character('a', -1);
-   
+    character('Z', -1);
+    character('?', 5);
+    character('A', 32);
+
 	system("pause");
 	return 0;
 
